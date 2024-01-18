@@ -108,7 +108,7 @@ fun ContentEditarView(it: PaddingValues, navController: NavController, viewModel
         OutlinedTextField(
             value = content.value ?: "",
             onValueChange = { content.value = it },
-            label = { Text(text = "Email") },
+            label = { Text(text = "Content") },
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(horizontal = 30.dp)
