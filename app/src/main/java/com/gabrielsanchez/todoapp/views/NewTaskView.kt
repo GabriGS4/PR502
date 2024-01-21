@@ -71,7 +71,7 @@ fun NewTaskView(navController: NavController, viewModel: TasksViewModel) {
                     if (title.value.isEmpty() || content.value.isEmpty()) {
                         Toast.makeText(
                             navController.context,
-                            "Title and Content a re required",
+                            "Title and Content are required",
                             Toast.LENGTH_SHORT
                         ).show()
                         return@FloatingActionButton
